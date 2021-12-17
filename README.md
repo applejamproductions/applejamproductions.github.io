@@ -1,3 +1,0 @@
-# applejamproductions.github.io
-  
-lfg
