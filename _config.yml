@@ -23,7 +23,7 @@ email: applejamproductions@gmail.comm
 description: >- # this means to ignore newlines until "baseurl:"
   lfg
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "applejamproductions.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 theme: null
