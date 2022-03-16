@@ -1,21 +1,248 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title></title>
-  <link rel="stylesheet" href="/assets/css/tachyons.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+<title>Applejam Productions</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
 </head>
-<body class="pa4">
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
   <marquee class="f3" scrollamount="5" width="100%" scrolldelay="60">cover shows zines film screenings r&b indie artists poets painters writers punk diy bookings jazz house shows rock music parties rap all-ages experimental movies art free metal cover shows zines film screenings r&b indie artists poets painters writers punk diy bookings jazz house shows rock music parties rap all-ages experimental movies art free metal cover shows zines film screenings r&b indie artists poets painters writers punk diy bookings jazz house shows rock music parties rap all-ages experimental movies art free metal cover shows zines film screenings r&b indie artists poets painters writers punk diy bookings jazz house shows rock music parties rap all-ages experimental movies art free metal cover shows zines film screenings r&b indie artists poets painters writers punk diy bookings jazz house shows rock music parties rap all-ages experimental movies art free metal cover shows zines film screenings r&b indie artists poets painters writers punk diy bookings jazz house shows rock music parties rap all-ages experimental movies art free metal cover shows zines film screenings r&b indie artists poets painters writers punk diy bookings jazz house shows rock music parties rap all-ages experimental movies art free metal cover shows zines film screenings r&b indie artists poets painters writers punk diy bookings jazz house shows rock music parties rap all-ages experimental movies art free metal cover shows zines film screenings r&b indie artists poets painters writers punk diy bookings jazz house shows rock music parties rap all-ages experimental movies art free metal cover shows zines film screenings r&b indie artists poets painters writers punk diy bookings jazz house shows rock music parties rap all-ages experimental movies art free metal</marquee>
-  <header>
-    <h1 class="f-6-l w3 h-100">APPLEJAM PRODUCTIONS</h1>
-    <h3 class="f1">live shows (& much more) <br/> at tufs university</h3>
-  </header>
-  <img class="fr fixed top-0 right--2 mt4"src="assets/images/OG_Logo.png" alt="apple with teeth, logo of applejam productions" width="700px">
+
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#shows" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SHOWS</a>
+    <a href="#zine" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ZINE</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#zine" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ZINE</a>
+  <a href="#shows" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SHOWS</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="misc_images/logowtextcompact.png" style="width:40%">
+    <!--
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Show Name</h3>
+      <p><b>We had the best time hosting show name!</b></p>
+    </div>
+    -->
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="misc_images/logoface.jpg" style="width:40%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Show Name</h3>
+      <p><b>The atmosphere in New York is lorem ipsum. lmao. why was that their boilerplate</b></p>
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/w3images/chicago.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Show Name</h3>
+      <p><b>I Fucking Hate You</b></p>
+    </div>
+  </div>
+
+  <!-- The Shows Section -->
+  <div class="w3-black" id="shows">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">Upcoming Shows</h2>
+      <p class="w3-opacity w3-center"><i>AppleJam is a student-run independent booking collective. Check out our upcoming shows</i></p><br>
+
+      <!-- Dont need but it could be repurposed. idk
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+        <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+        <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
+      </ul>
+      -->
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <a href="https://dark-thoughts.bandcamp.com/"><img src="temp_images/darkthoughtscover.jpg" alt="Dark Thoughts" style="width:100%" class="w3-hover-opacity"></a>
+          <div class="w3-container w3-white">
+            <p><b>Dark Thoughts</b></p>
+            <p class="w3-opacity">April 2, 2022</p>
+            <a href="https://dark-thoughts.bandcamp.com/"><p>Come See Dark Thoughts play, </p></a>
+            <p>with opening act - </p>
+            <p>Curtis Hall 101 Multimedia Room - Doors at 7:30pm</p>
+            <!--
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+            -->
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <a href="https://glitterer.bandcamp.com/"><img src="temp_images/glitterer.jpg" alt="Glitterer" style="width:100%" class="w3-hover-opacity"></a>
+          <div class="w3-container w3-white">
+            <p><b>Spring Thing</b></p>
+            <p class="w3-opacity">April 26, 2022</p>
+            <a href="https://glitterer.bandcamp.com/"><p>With Headliner Glitterer, and openers </p></a>
+            <a href="https://feeblelittlehorse.bandcamp.com/"><p>feeble little horse</p></a>
+            <a href="https://petfox.bandcamp.com/"><p>and Pet Fox</p></a>
+            <p>Curtis Hall 101 Multimedia Room - Doors at 7:30pm</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Fuck You</b></p>
+            <p class="w3-opacity">Suck my dick</p>
+            <p>ya heard?</p>
+          </div>
+        </div>
+      </div>
+      <a href = "archivelist.html"><h3 class="w3-wide w3-center">See Our Archive of Shows</h3></a>
+    </div>
+  </div>
+
+  <!-- The Zine Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="zine">
+    <h2 class="w3-wide">The Applejam Zine</h2>
+    <p class="w3-opacity"><i>Archive</i></p>
+    <p class="w3-justify">The AppleJam Zine was started in the Fall of 2021, with the goal of showcasing artists from around Tufts and the SMFA.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-center">
+        <p>Issue 1 - The Self Titled Issue<br>(Fall 2021)</p>
+        <a href = "zinepdfs/issue1.html">
+          <img src="zinepdfs/frontcover_issue1.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        </a>
+      </div>
+      <!-- USE THIS FORMAT WHEN NEED TO ADD MORE ISSUES
+      <div class="w3-half"> NOTE CLASS - CENTER for 1, HALF for 2, THIRD for 3...
+        <p>Issue 2 - add link to pdf</p>
+        <img src="/w3images/SHOWSmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      -->
+    </div>
+  </div>
+
+
+  <!-- Ticket Modal - dont think we need - could repurpose so that when button is clicked above on show (button is commented out right now) it opens a pic of the poster for the show
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32">
+        <span onclick="document.getElementById('ticketModal').style.display='none'"
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+  -->
+
+  <!-- The Contact Section -->
+  <div class="w3-black" id="shows">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">CONTACT<br></h2>
+      <div class="w3-third">
+        <i class="fa fa-map-marker" style="width:30px"></i>Medford, MA<br>Tufts University
+      </div>
+      <div class="w3-third">
+        <i class="fa fa-envelope" style="width:30px"> </i> Main Email: <br>applejamproductions@gmail.com<br>
+      </div>
+      <div class="w3-third">
+        <i class="fa fa-envelope" style="width:30px"> </i> Zine Email: <br>applejamzine@gmail.com<br>
+      </div>
+      <!-- We dont have a server, so no send message i guess
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+      -->
+    </div>
+  </div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <a href = "https://www.facebook.com/ApplejamProductions/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href = "https://www.instagram.com/applejamproductions/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a href = "https://twitter.com/ApplejamProd"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 4000);
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
 </body>
 </html>
